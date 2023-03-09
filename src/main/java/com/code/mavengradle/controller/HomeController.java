@@ -18,8 +18,8 @@ public class HomeController {
     }   
         
     @GetMapping("/third")
-    public String third(){
+    public String third() {
         return "third branch";
-
+    }
     
 }
