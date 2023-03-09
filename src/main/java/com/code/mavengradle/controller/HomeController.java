@@ -10,4 +10,9 @@ public class HomeController {
     public String show(){
         return "Welcome to gradle";
     }
+
+    @GetMapping("/third")
+    public String third(){
+        return "third branch";
+    }
 }
