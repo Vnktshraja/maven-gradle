@@ -15,11 +15,11 @@ public class HomeController {
     @GetMapping("/second")
     public String second(){
         return "second branch";
-        
+    }   
         
     @GetMapping("/third")
     public String third(){
         return "third branch";
 
-    }
+    
 }
